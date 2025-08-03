@@ -155,14 +155,12 @@ The setup script creates sample data:
 ## Development
 
 ```bash
+# Setup database
+npm run setup-db
+
 # Start development server
 npm run dev
 
-# Run tests
-npm test
-
-# Setup database
-npm run setup-db
 ```
 
 ## License
